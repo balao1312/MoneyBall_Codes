@@ -109,7 +109,7 @@ if __name__ == '__main__':
         del filelist[0]
 
     print(f'Total files : {len(filelist)}\n\n')
-
+    #
     # for each_file in filelist:
     #     csv_to_mysql(each_file)
 

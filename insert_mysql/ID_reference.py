@@ -12,7 +12,7 @@ print(f_df.shape[0])
 
 
 db = MySQLdb.connect(host='1.tcp.jp.ngrok.io',user='balao1312'
-                      ,passwd='clubgogo',db='MoneyBallDatabase', port=23879, charset='utf8')
+                      ,passwd='',db='MoneyBallDatabase', port=23879, charset='utf8')
 # 本地
 #db = MySQLdb.connect(host='localhost', user='balao1312'
 #                     , passwd='clubgogo', db='MoneyBallDatabase', port=3306, charset='utf8')

@@ -3,7 +3,7 @@ import pandas as pd
 
 # 從 mysql 讀 id_reference 的 table
 # db = MySQLdb.connect(host='192.168.33.10',user='balao1312'\
-#                      ,passwd='clubgogo',db='MoneyBallDatabase', port=3306, charset='utf8')
+#                      ,passwd='',db='MoneyBallDatabase', port=3306, charset='utf8')
 #
 # cursor = db.cursor() #建立游標
 #

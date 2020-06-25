@@ -1,7 +1,7 @@
 import MySQLdb
 #建立資料庫連線
 db = MySQLdb.connect(host='1.tcp.jp.ngrok.io',user='balao1312'\
-                     ,passwd='clubgogo',db='testlala', port=23879, charset='utf8')
+                     ,passwd='',db='testlala', port=23879, charset='utf8')
 
 cursor = db.cursor() #建立游標
 #try:

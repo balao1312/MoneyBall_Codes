@@ -38,7 +38,7 @@ def csv_to_mysql(filename):
     #                      ,passwd='clubgogo',db='testlala', port=23879, charset='utf8')
     # 本地
     db= MySQLdb.connect(host='192.168.33.10', port=3306 ,user='balao1312'
-                        ,passwd='clubgogo',db='MoneyBallDatabase', charset='utf8')
+                        ,passwd='',db='MoneyBallDatabase', charset='utf8')
 
     cursor = db.cursor() # 建立游標
 
